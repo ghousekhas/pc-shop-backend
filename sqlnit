@@ -1,0 +1,5 @@
+CREATE TABLE "users" (
+	"email"	TEXT NOT NULL UNIQUE,
+	"password"	INTEGER NOT NULL,
+	PRIMARY KEY("email")
+);
